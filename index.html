@@ -1,61 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Vivek Tech Hub - Explore technology, Python programming, web development and AI.">
-    <title>Vivek Tech Hub | Technology & Coding</title>
+
+    <meta name="description" content="Vivek Tech Hub - Learn Python, web development, technology and AI.">
+
+    <title>Vivek Tech Hub | Technology Website</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <header>
-        <nav>
+        <nav class="navbar">
             <h2>💻 Vivek Tech Hub</h2>
-            <button id="themeToggle" type="button">🌙 Dark Mode</button>
+            <button id="themeToggle">🌙 Dark Mode</button>
         </nav>
     </header>
 
-    <main>
-        <section class="hero">
-            <h1>Welcome to Vivek Tech Hub 🚀</h1>
-            <p>Explore Technology, Python, Web Development and Artificial Intelligence.</p>
-            <input id="searchInput" type="search" placeholder="Search technology topics...">
-        </section>
+    <section class="hero">
+        <h1>Welcome to Vivek Tech Hub 🚀</h1>
 
-        <section class="articles">
-            <h2>Latest Technology Topics</h2>
-            <div id="articleGrid" class="article-grid">
-                <article class="article-card">
-                    <h3>🐍 Learn Python</h3>
-                    <p>Start learning Python programming with beginner-friendly examples.</p>
-                    <a href="https://www.python.org/about/gettingstarted/" target="_blank" rel="noopener noreferrer">Learn More ↗</a>
-                </article>
+        <p>
+            Your destination for Technology, Python,
+            Web Development and Artificial Intelligence.
+        </p>
 
-                <article class="article-card">
-                    <h3>🌐 Web Development</h3>
-                    <p>Learn HTML, CSS and JavaScript to build modern websites.</p>
-                    <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development" target="_blank" rel="noopener noreferrer">Learn More ↗</a>
-                </article>
+        <input type="text" id="searchInput" placeholder="Search technology topics...">
+    </section>
 
-                <article class="article-card">
-                    <h3>🤖 Artificial Intelligence</h3>
-                    <p>Discover AI concepts and how artificial intelligence is used.</p>
-                    <a href="https://ai.google/education/" target="_blank" rel="noopener noreferrer">Learn More ↗</a>
-                </article>
+    <main class="container">
 
-                <article class="article-card">
-                    <h3>🔐 Cybersecurity</h3>
-                    <p>Learn about online safety, privacy and cybersecurity basics.</p>
-                    <a href="https://www.cisa.gov/cybersecurity" target="_blank" rel="noopener noreferrer">Learn More ↗</a>
-                </article>
-            </div>
-        </section>
+        <h2>Explore Technology</h2>
+
+        <div class="article-grid" id="articleGrid">
+
+            <article class="card">
+                <h3>🐍 Python Programming</h3>
+                <p>Learn Python programming from beginner to advanced level.</p>
+                <a href="https://www.python.org/about/gettingstarted/" target="_blank" rel="noopener noreferrer">Learn
+                    More ↗</a>
+            </article>
+
+            <article class="card">
+                <h3>🌐 Web Development</h3>
+                <p>Learn HTML, CSS and JavaScript to create websites.</p>
+                <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development" target="_blank"
+                    rel="noopener noreferrer">Learn More ↗</a>
+            </article>
+
+            <article class="card">
+                <h3>🤖 Artificial Intelligence</h3>
+                <p>Explore AI and discover how intelligent systems work.</p>
+                <a href="https://ai.google/education/" target="_blank" rel="noopener noreferrer">Learn More ↗</a>
+            </article>
+
+            <article class="card">
+                <h3>🔐 Cybersecurity</h3>
+                <p>Understand online security and protect your digital information.</p>
+                <a href="https://www.cisa.gov/cybersecurity" target="_blank" rel="noopener noreferrer">Learn More ↗</a>
+            </article>
+
+        </div>
+
     </main>
 
     <footer>
-        <p>© <span id="year">2026</span> Vivek Tech Hub | Built with HTML, CSS and JavaScript</p>
+        <p>© 2026 Vivek Tech Hub. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
+
 </body>
+
 </html>
